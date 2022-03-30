@@ -1,0 +1,13 @@
+#boxPackage{
+    background-color: tan;
+}
+
+#header-banner{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+
+#picker-row{
+    background-color: rgb(125, 125, 125);
+}

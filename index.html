@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <div class="" id = "header-banner"></div>
+    </header>
+
+    <main>
+        <div class="row justify-content-center" id="picker-row">
+            <div class="col-3">
+                <h2>What type of package are you looking for?</h2>
+            </div>
+            <div class="col-3"> 
+                <div class="container m-2 mt-5">
+                    <button id="fragile-button" class="btn btn-primary px-5" onclick="sort('fragile')">fragile</button>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container m-2 mt-5">
+                    <button id="heavy-button" class="btn btn-info px-5" onclick="sort('heavy')">heavy</button>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container m-2 mt-5">
+                    <button id="priority-button" class="btn btn-warning px-5" onclick="sort('priority')">priority</button>
+                </div>
+            </div>
+    </div>
+        
+        <div class="row" id="boxes">
+        
+        </div>
+    </main>
+
+    <footer>
+    <div class="" id = "header-banner"></div>
+    </footer>
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
+    integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
